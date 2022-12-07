@@ -1,0 +1,66 @@
+{
+  "id": "990e75c8-be5a-4daa-9c0d-847673d734c4",
+  "version": "2.0",
+  "name": "Cambio de Idioma",
+  "url": "https://www.cafsa.fi.cr/",
+  "tests": [{
+    "id": "0717ad96-f576-4fda-9f63-be0617ebd888",
+    "name": "Cambio de Idioma",
+    "commands": [{
+      "id": "694d511d-533f-4f35-9db4-e85c08374584",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.cafsa.fi.cr/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2642abf9-18a5-4458-b3d3-95591080d694",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1364x718",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1f484d2-5cdf-4d7a-9152-e2cdc22b1b90",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-main > .menu-item:nth-child(10) img",
+      "targets": [
+        ["css=#menu-main > .menu-item:nth-child(10) img", "css:finder"],
+        ["xpath=//img[@alt='English']", "xpath:img"],
+        ["xpath=//ul[@id='menu-main']/li[10]/a/img", "xpath:idRelative"],
+        ["xpath=//li[10]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b020788c-9f69-443c-abfb-947bc9721552",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-main > .menu-item:nth-child(9) img",
+      "targets": [
+        ["css=#menu-main > .menu-item:nth-child(9) img", "css:finder"],
+        ["xpath=//img[@alt='Spanish']", "xpath:img"],
+        ["xpath=//ul[@id='menu-main']/li[9]/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c96e8d9-ba57-4717-984b-77be90007739",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "00a88c84-490b-4deb-badd-067fa16725ca",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0717ad96-f576-4fda-9f63-be0617ebd888"]
+  }],
+  "urls": [],
+  "plugins": []
+}

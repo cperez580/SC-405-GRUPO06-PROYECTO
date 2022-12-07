@@ -1,0 +1,145 @@
+{
+  "id": "f3236f6b-247b-4a56-a674-4d492f4faba1",
+  "version": "2.0",
+  "name": "Cotice Aquí",
+  "url": "https://www.cafsa.fi.cr/",
+  "tests": [{
+    "id": "737d9847-6fea-46e1-93b1-0fddb016beb2",
+    "name": "Cotice Aquí",
+    "commands": [{
+      "id": "8f9bde9a-6c10-4125-96b5-fde587fe8871",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.cafsa.fi.cr/cotice-aqui/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa9d0f55-2ff0-4a24-bace-d02e2dcf7da9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1364x718",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e4e95df-6e8c-4fdd-84a3-96f361327d25",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e791fc2-f25c-41d8-85ef-24c76d49283a",
+      "comment": "",
+      "command": "click",
+      "target": "id=agencias",
+      "targets": [
+        ["id=agencias", "id"],
+        ["name=agencias", "name"],
+        ["css=#agencias", "css:finder"],
+        ["xpath=//select[@id='agencias']", "xpath:attributes"],
+        ["xpath=//form[@id='calculate']/div[4]/label/span/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'---')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0f3371d-5d06-405f-8037-5607f2826be6",
+      "comment": "",
+      "command": "click",
+      "target": "id=agencias",
+      "targets": [
+        ["id=agencias", "id"],
+        ["name=agencias", "name"],
+        ["css=#agencias", "css:finder"],
+        ["xpath=//select[@id='agencias']", "xpath:attributes"],
+        ["xpath=//form[@id='calculate']/div[4]/label/span/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'---')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "826e2abe-9bc4-4221-8fec-f2eb615dc7fe",
+      "comment": "",
+      "command": "click",
+      "target": "id=agencias",
+      "targets": [
+        ["id=agencias", "id"],
+        ["name=agencias", "name"],
+        ["css=#agencias", "css:finder"],
+        ["xpath=//select[@id='agencias']", "xpath:attributes"],
+        ["xpath=//form[@id='calculate']/div[4]/label/span/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'---')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bbeac10-909d-4f7c-8573-c1eccb7d3153",
+      "comment": "",
+      "command": "click",
+      "target": "id=agencias",
+      "targets": [
+        ["id=agencias", "id"],
+        ["name=agencias", "name"],
+        ["css=#agencias", "css:finder"],
+        ["xpath=//select[@id='agencias']", "xpath:attributes"],
+        ["xpath=//form[@id='calculate']/div[4]/label/span/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'---')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d1f3ff5-564d-4077-8720-ff86b734b870",
+      "comment": "",
+      "command": "click",
+      "target": "css=#infoUsados > label:nth-child(1)",
+      "targets": [
+        ["css=#infoUsados > label:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='infoUsados']/label", "xpath:idRelative"],
+        ["xpath=//div[7]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Marca:\n')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01867cf8-cfe7-4059-994b-a275bd735c59",
+      "comment": "",
+      "command": "click",
+      "target": "css=#infoUsados > label:nth-child(1)",
+      "targets": [
+        ["css=#infoUsados > label:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='infoUsados']/label", "xpath:idRelative"],
+        ["xpath=//div[7]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Marca:\n')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccc10347-ffb4-4b2a-af89-192595ecec48",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=#infoUsados > label:nth-child(1)",
+      "targets": [
+        ["css=#infoUsados > label:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='infoUsados']/label", "xpath:idRelative"],
+        ["xpath=//div[7]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Marca:\n')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3eb483bb-acc0-4e0d-958c-65aedbd6ff1e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2e60648c-e133-4ca8-a158-99283381f885",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["737d9847-6fea-46e1-93b1-0fddb016beb2"]
+  }],
+  "urls": [],
+  "plugins": []
+}

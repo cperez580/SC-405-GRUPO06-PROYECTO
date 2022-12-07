@@ -1,0 +1,57 @@
+{
+  "id": "b904df99-df75-4c8a-b007-d42732de461b",
+  "version": "2.0",
+  "name": "Funcionalidad redirección Ibanking",
+  "url": "https://www.cafsa.fi.cr/",
+  "tests": [{
+    "id": "c6eb98d5-6d3e-4b55-81f2-fbbdf5276957",
+    "name": "Cafsa en línea",
+    "commands": [{
+      "id": "1217b3ff-3ab5-42dd-a369-67c17b3f1039",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.cafsa.fi.cr/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "416feb7b-0076-4839-ab73-5e8c3bdd3e2e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1364x718",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54b74afe-8cec-4c03-bf8f-3d31950bdc3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4 > a",
+      "targets": [
+        ["css=.col-md-4 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cafsa en línea')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://ibanking.cafsa.fi.cr/')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5208",
+      "windowTimeout": 2000
+    }, {
+      "id": "f0189298-a6c0-494b-ac2d-06b8dfb8d3a5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5208}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1fc53c10-a813-4c0e-9d23-85e2875bdcf4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c6eb98d5-6d3e-4b55-81f2-fbbdf5276957"]
+  }],
+  "urls": ["https://www.cafsa.fi.cr/"],
+  "plugins": []
+}
